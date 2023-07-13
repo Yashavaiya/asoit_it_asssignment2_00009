@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" initial-scale=1.0, maximum-scale=1.0,
+    user-scalable=1">
+    <title>formvalidation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script text="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+            ></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../assignment 2/custom.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$("#formvalidation").ready(function(){
+  $("submit").click(function(){
+    $("p").hide(1000);
+    alert("your form is submitted");
+  });
+});
+</script> -->
+</head>
+
+<body>
+    <div class="input_container">
+        <form name="formvalidation" id="formvalidation" action="./valid.html">
+            <div class="input-row">
+                <input type="text" name="name" placeholder="name*" required>
+            </div>
+            <div class="input-row">
+                <input type="email" name="email" placeholder="email*" required>
+            </div>
+            <div class="input-row">
+                <input type="text" name="phone" placeholder="phone*" required>
+            </div>
+            <div class="input-row">
+                <input type="text" name="subject" placeholder="subject*" required>
+            </div>
+            <div class="input-row">
+                <textarea name="formMesage" placeholder="Message*" required style="height: 150px;"></textarea>
+            </div>
+            <div class="text-center">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+
+    </div>
+    <!-- <script text="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+            ></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../assignment 2/custom.js"> </script> -->
+</body>
+
+</html>
